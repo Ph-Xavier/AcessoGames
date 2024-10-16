@@ -1,16 +1,16 @@
 :root {
-  --branco: #fff;
-  --azul-claro: #dfe3e5;
-  --vermelho-forte: #b72e2e;
-  --cinza-escuro: #4f4c4c;
-  --cinza-claro: #f7f4f4;
-  --cinza-medio: #d9d9d9;
+  --branco: #ffffff;
+  --azul-claro: #c9d6df; /* Mais vibrante e com maior contraste */
+  --vermelho-forte: #a83232; /* Menos saturado para reduzir contraste excessivo */
+  --cinza-escuro: #2c2c2c; /* Mais escuro para maior contraste */
+  --cinza-claro: #ececec; /* Mantém contraste suficiente */
+  --cinza-medio: #b5b5b5;
 
-  --fonte-link: #0084ff;
-  --fonte-cinza: #666;
-  --borda-cabecalho-mobile: #103d4a;
-  --bg-rodape: #333;
-  --bg-chamada-mobile: #00161c;
+  --fonte-link: #0056b3; /* Azul com maior contraste */
+  --fonte-cinza: #4a4a4a; /* Mais escuro para legibilidade */
+  --borda-cabecalho-mobile: #0a2d3a; /* Azul escuro que combina com o tema */
+  --bg-rodape: #1a1a1a; /* Mais escuro para maior contraste */
+  --bg-chamada-mobile: #00141a;
 
   --montserrat: "Montserrat", sans-serif;
 }
