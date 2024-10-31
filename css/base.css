@@ -1,19 +1,25 @@
 :root {
   --branco: #ffffff;
-  --azul-claro: #c9d6df; /* Mais vibrante e com maior contraste */
-  --vermelho-forte: #a83232; /* Menos saturado para reduzir contraste excessivo */
-  --cinza-escuro: #2c2c2c; /* Mais escuro para maior contraste */
-  --cinza-claro: #ececec; /* Mantém contraste suficiente */
-  --cinza-medio: #b5b5b5;
+  --azul-claro: #c9d6df; /* Azul vibrante com bom contraste */
+  --vermelho-forte: #a83232; /* Vermelho com menor saturação */
+  --cinza-escuro: #2c2c2c; /* Cinza escuro para maior contraste */
+  --cinza-claro: #ececec; /* Cinza claro que mantém contraste */
+  --cinza-medio: #b5b5b5; /* Cinza médio para fundos de seções */
 
-  --fonte-link: #0056b3; /* Azul com maior contraste */
-  --fonte-cinza: #4a4a4a; /* Mais escuro para legibilidade */
+  --fonte-link: #0056b3; /* Azul com contraste para links */
+  --fonte-cinza: #4a4a4a; /* Cinza para textos */
   --borda-cabecalho-mobile: #0a2d3a; /* Azul escuro que combina com o tema */
-  --bg-rodape: #1a1a1a; /* Mais escuro para maior contraste */
-  --bg-chamada-mobile: #00141a;
+  --bg-rodape: #1a1a1a; /* Fundo escuro para o rodapé */
+  --bg-chamada-mobile: #00141a; /* Fundo para chamada em mobile */
+  
+  --cor-primaria: #001e2c; /* Cor base do logo */
+  --azul-suave: #6c98a9; /* Azul complementar, aplicado em fundos e seções */
+  --cinza-suave: #d7e3e6; /* Cinza suave para contraste sutil */
+  --gradiente-aplicacao: linear-gradient(45deg, #001e2c, #6c98a9); /* Gradiente para destaque visual */
 
-  --montserrat: "Montserrat", sans-serif;
+  --montserrat: "Montserrat", sans-serif; /* Fonte primária */
 }
+
 
 body {
   font-family: "Open Sans", sans-serif;
