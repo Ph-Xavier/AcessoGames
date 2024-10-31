@@ -18,6 +18,11 @@
 }
 
 .cabecalho__logo {
+  display: block;
+
+  width: 10%;
+  height: 10%;
+
   margin-bottom: 1rem;
 }
 

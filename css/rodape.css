@@ -9,15 +9,23 @@
   padding-bottom: 2rem;
 }
 
+.rodape__logo {
+  display: block;
+
+  width: 10%;
+  height: 10%;
+}
+
 .rodape__social {
   display: flex;
+  filter: invert(1);
 }
 
 .rodape__midia {
   display: block;
 
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
 
   margin: 2rem 1rem;
 }
@@ -25,6 +33,7 @@
 .rodape__navegacao {
   color: var(--branco);
   text-align: center;
+  padding-top: 20px;
   line-height: 3;
 }
 
@@ -42,8 +51,8 @@
   }
 
   .rodape__navegacao {
-    text-align: left;
+    text-align: right;
 
-    min-width: 600px;
+    min-width: 400px;
   }
 }
