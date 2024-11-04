@@ -11,12 +11,12 @@
   text-transform: uppercase;
   text-align: center;
 
+  margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
 .conteudo__texto {
   line-height: normal;
-
   margin-bottom: 1rem;
 }
 
@@ -34,11 +34,5 @@
 
   .conteudo__imagem {
     margin: 1rem 2rem;
-  }
-
-  .conteudo__texto {
-    line-height: normal;
-
-    margin-bottom: 1rem;
   }
 }
