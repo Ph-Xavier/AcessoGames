@@ -1,5 +1,5 @@
 .cabecalho {
-  color: #fff;
+  color: var(--branco);
 
   width: 100%;
 
