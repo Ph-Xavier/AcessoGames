@@ -28,6 +28,8 @@
 
 .destaques__texto {
   line-height: normal;
+  text-align: justify;
+  font-size: 20px;
   margin: 1rem;
 }
 
