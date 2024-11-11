@@ -33,6 +33,10 @@
   margin-bottom: 1rem;
 }
 
+.sobre__texto--plataformas {
+  text-align: center;
+}
+
 .sobre__imagem {
   display: none;
   width: 50%;
