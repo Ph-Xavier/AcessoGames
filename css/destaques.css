@@ -16,14 +16,12 @@
 }
 
 .destaques__conteudo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-block;
 }
 
 .destaques__video {
-  width: 20vw;
-  height: 50vh;
+  width: 90dvw;
+  height: 50dvh;
 }
 
 .destaques__texto {
@@ -60,4 +58,17 @@
   border-color: var(--vermelho-forte);
 
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .destaques__conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .destaques__video {
+    width: 20vw;
+    height: 50vh;
+  }
 }
