@@ -18,7 +18,13 @@
 .conteudo__texto {
   line-height: normal;
   font-size: 1.25rem;
+  text-align: justify;
   margin-bottom: 1rem;
+}
+
+.conteudo__lista {
+  list-style: circle;
+  margin: 2rem;
 }
 
 .conteudo__imagem {
