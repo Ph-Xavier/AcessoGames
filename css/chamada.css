@@ -24,6 +24,7 @@
 .chamada__texto {
   font-size: 1.25rem;
   line-height: normal;
+  text-align: justify;
 
   margin: 0 auto 2.5rem;
 }
