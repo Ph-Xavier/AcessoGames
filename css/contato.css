@@ -21,9 +21,18 @@
 }
 
 .contato__botao {
-  color: var(--cinza-escuro);
+  display: inline-block;
+  background-color: #0050ac;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
 
-  border-color: var(--cinza-escuro);
-
-  margin-top: 1rem;
+.contato__botao:hover {
+  background-color: #2b8ad8;
 }

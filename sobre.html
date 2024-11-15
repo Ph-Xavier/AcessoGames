@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre | Acesso Games</title>
+    <title>Sobre | AcessoGames</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -12,17 +12,18 @@
     <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/base.css" rel="stylesheet" />
     <link href="./css/cabecalho.css" rel="stylesheet" />
-    <link href="./css/chamada.css" rel="stylesheet" />
-    <link href="./css/sobre.css" rel="stylesheet" />
     <link href="./css/rodape.css" rel="stylesheet" />
+    <link href="./css/sobre.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="cabecalho container">
-      <img
-        class="cabecalho__logo"
-        src="./img/logo/logoAG_SVG.svg"
-        alt="Logo da Acesso Games"
-      />
+    <header class="cabecalho__container">
+      <a href="./index.html">
+        <img
+          class="cabecalho__logo"
+          src="./img/logo/logoAG_sideText_PNG.png"
+          alt="Logo da AcessoGames"
+        />
+      </a>
       <nav class="cabecalho__navegacao">
         <ul>
           <li class="cabecalho__link"><a href="./index.html">Home</a></li>
@@ -38,50 +39,29 @@
       </nav>
     </header>
     <main>
-      <section class="chamada container">
-        <h1 class="chamada__titulo">Acessibilidade nos Videogames</h1>
-        <p class="chamada__texto">
-          O mundo dos videogames está em constante evolução, e uma das
-          tendências mais importantes é a crescente preocupação com a
-          acessibilidade. Cada vez mais, desenvolvedores e empresas estão
-          buscando maneiras de tornar os jogos mais inclusivos, permitindo que
-          pessoas com diferentes habilidades e necessidades possam desfrutar
-          dessa forma de entretenimento.
+      <section class="sobre">
+        <h1 class="sobre__titulo">Sobre o Projeto AcessoGames</h1>
+        <p class="sobre__texto">
+          O <strong>AcessoGames</strong> é um site criado para promover a inclusão e a acessibilidade no universo dos videogames. Nosso objetivo é reunir informações relevantes e recursos para que todos possam aproveitar o mundo dos jogos, independentemente de suas limitações. 
         </p>
-      </section>
-      <section class="sobre container">
-        <div class="sobre__conteudo">
-          <h2 class="sobre__titulo">Sobre</h2>
+        <p class="sobre__texto">
+          Este projeto foi desenvolvido como parte do <strong>Projeto Interdisciplinar do 1° Semestre</strong> do curso de Desenvolvimento de Software Multiplataforma da <strong>Fatec Franca</strong>. Contou com a dedicação e trabalho de:
+        </p>
+        <ul class="sobre__integrantes">
+          <li><strong>Iago Rodrigues Pinheiro</strong></li>
+          <li><strong>Pedro Henrique Xavier Constancio</strong></li>
+          <li><strong>Kairo César Souza Gomes</strong></li>
+        </ul>
+        <section class="sobre__responsividade">
           <p class="sobre__texto">
-            Seu Portal para um Mundo de Jogos
-            <strong class="sobre__texto--destaque">Mais Acessíveis</strong>!
+            O site é completamente <strong>responsivo</strong>, garantindo uma experiência fluida e intuitiva em dispositivos móveis, desktops e tablets. Nossa intenção é garantir que ninguém fique de fora!
           </p>
-          <p class="sobre__texto">
-            Descubra um universo de games onde todos podem jogar! Nosso site é
-            dedicado a trazer as últimas novidades sobre acessibilidade em
-            videogames. Aqui você encontrará reviews detalhados de jogos com
-            recursos adaptados, tutoriais sobre como configurar controles e
-            opções de acessibilidade, além de entrevistas com desenvolvedores e
-            jogadores que estão revolucionando a forma como experimentamos os
-            jogos. Junte-se a nós e faça parte dessa comunidade que busca tornar
-            os videogames mais inclusivos e divertidos para todos!
-          </p>
-          <ul class="sobre__plataformas">
-            <li><img src="./img/android.png" alt="Ícone do Android" /></li>
-            <li><img src="./img/apple.png" alt="Ícone da Apple" /></li>
-            <li>
-              <img src="./img/windowsphone.png" alt="Ícone da Microsoft" />
-            </li>
-          </ul>
-          <p class="sobre__texto sobre__texto--plataformas">
-            Desenvolvemos o site para todos dispositivos.
-          </p>
-        </div>
-        <img
-          src="./img/sobre.jpg"
-          alt="Sobre a Acesso Games"
-          class="sobre__imagem"
-        />
+          <div class="icons-container">
+            <img src="img/android.svg" alt="Ícone Android" class="resposta-icon" />
+            <img src="img/apple.svg" alt="Ícone Apple" class="resposta-icon" />
+            <img src="img/windows.svg" alt="Ícone Windows" class="resposta-icon" />
+          </div>
+        </section>
       </section>
     </main>
     <footer class="rodape container">

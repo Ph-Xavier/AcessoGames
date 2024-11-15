@@ -1,7 +1,7 @@
 :root {
   --branco: #ffffff;
   --azul-claro: #c9d6df; /* Azul vibrante com bom contraste */
-  --azul-muito-claro: #E9F1F3 /* Usar Na Nav Bar */
+  --azul-muito-claro: #E9F1F3; /* Usar Na Nav Bar */
   --vermelho-forte: #a83232; /* Vermelho com menor saturação */
   --cinza-escuro: #2c2c2c; /* Cinza escuro para maior contraste */
   --cinza-claro: #ececec; /* Cinza claro que mantém contraste */
@@ -23,7 +23,8 @@
 
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--montserrat), sans-serif;
+  background-color: #ececec;
 }
 
 .container {
