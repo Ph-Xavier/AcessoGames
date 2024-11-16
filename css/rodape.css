@@ -35,6 +35,7 @@
 .rodape__navegacao {
   color: var(--branco);
   text-align: center;
+  font-size: 1.3rem;
   padding-top: 20px;
   line-height: 3;
 }
