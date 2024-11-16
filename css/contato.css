@@ -36,3 +36,18 @@
 .contato__botao:hover {
   background-color: #2b8ad8;
 }
+
+.form-label {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.form-control {
+  font-size: 1.5rem;
+  padding: 3%;
+}
+
+.btn {
+  width: 100%;
+  margin: 2rem 0;
+}
