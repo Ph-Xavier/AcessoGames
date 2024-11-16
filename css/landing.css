@@ -2,17 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #001E2C;
+  background-color: #001e2c;
   padding: 50px;
   color: #fff;
 }
 
-.landing__text img{
+.landing__text img {
   max-width: 75%;
   height: auto;
 }
 
-.landing__image img{
+.landing__image img {
   max-width: 100%;
   height: auto;
 }
@@ -27,4 +27,19 @@
   flex: 1;
   padding-left: 20px;
   text-align: right;
+}
+
+@media (max-width: 768px) {
+  .landing__container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .landing__text,
+  .landing__image {
+    flex: 0 0 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
 }

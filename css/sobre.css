@@ -47,17 +47,16 @@
 }
 
 .resposta-icon {
-  width: 50px; 
+  width: 50px;
   height: auto;
 }
 
 @media screen and (max-width: 768px) {
   .icons-container {
-    flex-direction: column;
     gap: 1rem;
   }
 
   .resposta-icon {
-    width: 40px; 
+    width: 40px;
   }
 }
